@@ -77,17 +77,6 @@ export default function Landing() {
           </div>
         </motion.div>
 
-        {/* Subtitle */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 1 }}
-          className="font-cormorant font-light italic mb-16"
-          style={{ fontSize: "1.15rem", color: "var(--text-muted)" }}
-        >
-          "Cada mes será una página más de nuestra historia."
-        </motion.p>
-
         {/* Chapters label */}
         <motion.span
           initial={{ opacity: 0 }}
