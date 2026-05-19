@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────
+   VARIABLES GLOBALES
+───────────────────────────── */
+:root {
+  --gold: #c9a96e;
+  --gold-light: #e8d5b0;
+
+  --black: #050505;
+
+  --text-cream: #f5f0eb;
+  --text-muted: #8a8078;
+  --text-dim: #3a3530;
+
+  --rose: #f4c2c2;
+  --lavender: #c5b8e8;
+  --mist: #b8d4e8;
+  --mint: #b8e0d2;
+  --peach: #f4d4b8;
+}
+
+/* ─────────────────────────────
+   RESET
+───────────────────────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--black);
+  color: var(--text-cream);
+
+  font-family: 'Inter', sans-serif;
+
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ─────────────────────────────
+   ROOT
+───────────────────────────── */
+#root {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* ─────────────────────────────
+   SCROLLBAR
+───────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-dim);
+  border-radius: 999px;
+}
+
+/* ─────────────────────────────
+   FONTS
+───────────────────────────── */
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-bodoni {
+  font-family: 'Bodoni Moda', serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ─────────────────────────────
+   DECORATIONS
+───────────────────────────── */
+.ornament-line {
+  width: 1px;
+  height: 60px;
+
+  margin: 0 auto;
+
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--gold),
+    transparent
+  );
+}
+
+/* ─────────────────────────────
+   OPTIONAL SELECTION STYLE
+───────────────────────────── */
+::selection {
+  background: rgba(201, 169, 110, 0.3);
+  color: white;
+}
