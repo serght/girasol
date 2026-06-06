@@ -82,7 +82,7 @@ export const MONTHS = [
     spotifyPhrase: 'Que julio lo diga por mí.',
 
     letter: {
-      unlockDate: '2026-07-01T00:00:00',
+      unlockDate: '2026-05-17T00:00:00',
       paragraphs: [
         'Mi amor,',
 
@@ -117,7 +117,7 @@ export const MONTHS = [
 
     image: mes3,
 
-    targetDate: '2026-08-23T00:00:00',
+    targetDate: '2026-08-01T00:00:00',
 
     accentColor: '#b8d4e8',
 
@@ -127,7 +127,7 @@ export const MONTHS = [
     spotifyPhrase: 'Casi, casi.',
 
     letter: {
-      unlockDate: '2026-08-01T00:00:00',
+      unlockDate: '2026-05-17T00:00:00',
       paragraphs: [
         'Mi amor,',
 
@@ -162,7 +162,7 @@ export const MONTHS = [
 
     image: mes4,
 
-    targetDate: '2026-09-23T00:00:00',
+    targetDate: '2026-09-01T00:00:00',
 
     accentColor: '#b8e0d2',
 
@@ -172,7 +172,7 @@ export const MONTHS = [
     spotifyPhrase: 'Para cuando estés de regreso.',
 
     letter: {
-      unlockDate: '2026-09-01T00:00:00',
+      unlockDate: '2026-05-17T00:00:00',
       paragraphs: [
         'Mi amor,',
 
